@@ -1,5 +1,4 @@
 import java.util.Comparator;
-
 public class Ranking implements Comparator<Team>{
     public int compare(Team t1, Team t2) {
         if(t1.getPoints() == t2.getPoints()) {
