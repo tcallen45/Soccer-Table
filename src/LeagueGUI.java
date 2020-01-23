@@ -187,8 +187,6 @@ public class LeagueGUI extends JFrame {
 
         class ButtonListener implements ActionListener {
             public void actionPerformed(ActionEvent e) {
-                //System.out.println(e.getActionCommand());
-                //System.out.println(selectedMatch);
                 for (League l : leagues) {
                     if (e.getActionCommand().equals(l.getName())) {
                         selectedLeague = leagues.indexOf(l);
