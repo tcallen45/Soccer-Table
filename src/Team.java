@@ -185,9 +185,6 @@ public class Team{
         test.addMatch(m);
         test.addMatch(m2);
         test.addMatch(m3);
-        //System.out.println(test.getMatches());
         test.removeMatch(m2);
-        //System.out.println(test.getMatches());
-        
     }
 }
